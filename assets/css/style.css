@@ -2,7 +2,6 @@
    style.css — Universal theme for all Nullen pages
    Fonts, colors, reset, header/footer, hero, text sections
    ============================================================ */
-
 @font-face {
     font-family: "Fraunces";
     src: url("/assets/fonts/Fraunces-VariableFont_SOFT\,WONK\,opsz\,wght.ttf") format("truetype");
