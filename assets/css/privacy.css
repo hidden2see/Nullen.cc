@@ -1,0 +1,8 @@
+/* ============================================================
+   privacy.css — Styles for pages/privacy.html
+   Loaded after style.css. Uses theme variables defined there
+   ============================================================ */
+
+#hero p {
+    max-width: 560px;
+}
