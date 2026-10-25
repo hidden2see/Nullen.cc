@@ -10,6 +10,7 @@
       content="Generate strong passwords in your browser. No account, no ads, no tracking. Made here. Kept nowhere."
     />
     <link rel="canonical" href="https://nullen.cc/" />
+    <meta property="og:url" content="https://nullen.cc/" />
     <meta
       property="og:title"
       content="Nullen: Free Private Password Generator"
@@ -17,6 +18,11 @@
     <meta
       property="og:description"
       content="No account, no ads, no tracking. Passwords are made in your browser and never leave the page."
+    />
+    <meta property="og:type" content="website" />
+    <meta
+      property="og:image"
+      content="https://nullen.cc/assets/media/banner.png"
     />
     <link
       rel="shortcut icon"
@@ -32,8 +38,10 @@
   </head>
   <body>
     <header>
-      <img src="/assets/media/logo.svg" alt="Logo" id="logo" />
-      <span>Nullen</span>
+      <a href="https://nullen.cc">
+        <img src="/assets/media/logo.svg" alt="Logo" id="logo" />
+        <span>Nullen</span>
+      </a>
     </header>
     <main>
       <div id="hero">
@@ -192,5 +200,14 @@
     </footer>
 
     <script src="/assets/javascript/index.js"></script>
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "name": "Nullen",
+        "url": "https://nullen.cc",
+        "logo": "https://nullen.cc/assets/media/logo
+      }
+    </script>
   </body>
 </html>
